@@ -1,21 +1,24 @@
 titanic
 ============================================
-python:
-	pandas sklearn numpy
-	==========================
-method:
-	random forest and xgboost
-	==========================
-feature:
-	random forest:
-		SibSp & Parch change to Family, Family > 1 = 1
-		Age nan change to random(mean-std, mean+std)
-		Sex age<=16 change to child, delete male
-		Pclass delete classNum == 3
-		Fare nan change to median
-		Embarked delete S
-	xgboost:
-		Pclass, Sex, Embarked change to dummy variable
-		Age nan set to mean
-		Fare nan change to median
-		SibSp plus Parch = Family
+
+###python package:<br>
+* pandas sklearn numpy<br>
+
+
+###method:<br>
+* random forest and xgboost<br>
+
+###feature:<br>
+#####  random forest:<br>
+>>* SibSp & Parch change to Family, Family > 1 = 1<br>
+>>* Age nan change to random(mean-std, mean+std)<br>
+>>* Sex age<=16 change to child, delete male<br>
+>>* Pclass delete classNum == 3<br>
+>>* Fare nan change to median<br>
+>>* Embarked delete S<br>
+
+#####  xgboost:<br>
+>>* Pclass, Sex, Embarked change to dummy variable<br>
+>>* Age nan set to mean<br>
+>>* Fare nan change to median<br>
+>>* SibSp plus Parch = Family<br>
