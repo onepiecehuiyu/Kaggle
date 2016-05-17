@@ -1,5 +1,10 @@
 digit recognizer
-python: 
-	pandas sklearn xgboost
-method:
-	xgboost && random forest
+==========
+##### python: <br>
+* pandas sklearn xgboost<br>
+
+##### method:<br>
+* xgboost && random forest<br>
+
+##### feature:<br>
+> all
