@@ -1,0 +1,36 @@
+Data fields:
+	Dates - timestamp of the crime incident
+	Category - category of the crime incident (only in train.csv). This is the target variable you are going to predict.
+	Descript - detailed description of the crime incident (only in train.csv)
+	DayOfWeek - the day of the week
+	PdDistrict - name of the Police Department District
+	Resolution - how the crime incident was resolved (only in train.csv)
+	Address - the approximate street address of the crime incident
+	X - Longitude
+	Y - Latitude
+trainData:
+	RangeIndex: 878049 entries, 0 to 878048
+	Data columns (total 9 columns):
+	Dates         878049 non-null object
+	Category      878049 non-null object
+	Descript      878049 non-null object
+	DayOfWeek     878049 non-null object
+	PdDistrict    878049 non-null object
+	Resolution    878049 non-null object
+	Address       878049 non-null object
+	X             878049 non-null float64
+	Y             878049 non-null float64
+	dtypes: float64(2), object(7)
+	memory usage: 60.3+ MB
+testData:
+	RangeIndex: 884262 entries, 0 to 884261
+	Data columns (total 7 columns):
+	Id            884262 non-null int64
+	Dates         884262 non-null object
+	DayOfWeek     884262 non-null object
+	PdDistrict    884262 non-null object
+	Address       884262 non-null object
+	X             884262 non-null float64
+	Y             884262 non-null float64
+	dtypes: float64(2), int64(1), object(4)
+	memory usage: 47.2+ MB
